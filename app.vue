@@ -19,6 +19,10 @@
     ],
     link: [
       { rel: 'icon', href: '/favicon.png' }
+    ],
+    script: [
+      { defer: true, async: true, src: 'https://analytics.artiefuzzz.space/umami.js', 'data-website-id': '04c0fa1c-3536-4ec4-b4da-a5b2968fd6f0' },
+      { defer: true, async: true, src: 'https://arc.io/widget.min.js#RHQdmiNq' }
     ]
   })
 </script>
