@@ -5287,6 +5287,7 @@ __metadata:
     nuxt: 3.0.0-rc.11
     postcss: 8.4.17
     tailwindcss: 3.1.8
+    vue3-simple-icons: ^7.11.0
   languageName: unknown
   linkType: soft
 
@@ -6229,7 +6230,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue@npm:^3.2.39":
+"vue3-simple-icons@npm:^7.11.0":
+  version: 7.11.0
+  resolution: "vue3-simple-icons@npm:7.11.0"
+  dependencies:
+    vue: ^3.0.0
+  checksum: de8e72c85f0a30917e292d7705de023927ad4f15019b1185b7fb0b1b94ee0881b93effe777ae625bd68354b97f3182ee27584c9a97c32ddd3fd936e79c5f274d
+  languageName: node
+  linkType: hard
+
+"vue@npm:^3.0.0, vue@npm:^3.2.39":
   version: 3.2.40
   resolution: "vue@npm:3.2.40"
   dependencies:
