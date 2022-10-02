@@ -9,7 +9,7 @@ import '@/assets/main.css'
       <h1 class='main-title'>
         ArtieFuzzz
       </h1>
-      <Icons class='flex justify-center place-items-start hide' />
+      <Icons class='flex justify-center place-items-start' />
       <h2 class='main-tagline'>
         Self - Taught Full Stack Developer
       </h2>
@@ -48,14 +48,5 @@ import '@/assets/main.css'
 
   .round-pfp {
     @apply rounded-full ring-4 p-1 dark:ring-gray-800 ring-pink-300 m-0 mb-[1rem];
-  }
-
-  .hide {
-    opacity: 0;
-    transition: all 2s;
-  }
-
-  .show {
-    opacity: 1;
   }
 </style>
