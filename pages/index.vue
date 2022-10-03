@@ -41,12 +41,12 @@ import '@/assets/main.css'
   }
 
   .main-tagline {
-    @apply text-pink-300 font-semibold m-0 mt-[20px];
+    @apply text-pink-300 font-semibold m-0 mt-[0.71rem];
     font-size: 1rem;
     line-height: 1.25rem;
   }
 
   .round-pfp {
-    @apply rounded-full ring-4 p-1 dark:ring-gray-800 ring-pink-300 m-0 mb-[1rem];
+    @apply rounded-full ring-4 p-1 ring-pink-300 m-0 mb-[1rem];
   }
 </style>

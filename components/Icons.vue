@@ -1,6 +1,6 @@
 <script setup lang='ts'>
 import '@/assets/main.css'
-import { Css3Icon, DockerIcon, ElixirIcon, Html5Icon, MongodbIcon, NextdotjsIcon, NodedotjsIcon, PostgresqlIcon, PowershellIcon, RustIcon, SassIcon, TailwindcssIcon, TypescriptIcon, VisualstudiocodeIcon } from 'vue3-simple-icons'
+import { Css3Icon, DockerIcon, ElixirIcon, Html5Icon, MongodbIcon, NextdotjsIcon, NodedotjsIcon, PostgresqlIcon, PowershellIcon, RustIcon, SassIcon, TailwindcssIcon, TypescriptIcon, VisualstudiocodeIcon, VuedotjsIcon } from 'vue3-simple-icons'
 </script> 
 
 <template>
@@ -13,6 +13,7 @@ import { Css3Icon, DockerIcon, ElixirIcon, Html5Icon, MongodbIcon, NextdotjsIcon
     <Css3Icon style='fill: #2572B6' class='spacing' size='24' />
     <SassIcon style='fill: #CC6699' class='spacing' size='24' />
     <NextdotjsIcon style='fill: #FFFFFF' class='spacing' size='24' />
+    <VuedotjsIcon style='fill: #00DC82' class='spacing' size='24' />
     <DockerIcon style='fill: #2496ED' class='spacing' size='24' />
     <TailwindcssIcon style='fill: #06B6D4' class='spacing' size='24' />
     <MongodbIcon style='fill: #47A248' class='spacing' size='24' />
