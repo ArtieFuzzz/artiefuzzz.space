@@ -3,8 +3,9 @@ import '@/assets/main.css'
 </script>
 
 <template>
-  <div class='prose prose-zinc lg:prose-xl w-screen h-screen'>
-    <div class='flex flex-col justify-center items-center h-screen w-screen'>
+  <div class='prose prose-zinc lg:prose-xl'>
+    <Navi />
+    <div class='main-container'>
       <img src='/profilepic.png' alt='Profile Picture' class='round-pfp' size='256' draggable='false'>
       <h1 class='main-title'>
         ArtieFuzzz
@@ -16,10 +17,7 @@ import '@/assets/main.css'
     </div>
 
     <div class=' mx-auto text-center items-center justify-center'>
-      <footer
-        class='text-center align-bottom lg:fixed inset-x-0 bottom-10 text-white'
-        style='fontSize: 1rem'  
-      >
+      <footer class='text-center align-bottom lg:fixed inset-x-0 bottom-10 text-white' style='fontSize: 1rem'>
         Copyright &copy; 2022 - Present |
         <a href='https://github.com/ArtieFuzzz' class='text-white umami--click--footer-profile'> ArtieFuzzz </a> | (
         <a href='https://www.pixiv.net/en/artworks/97122460' class='text-white umami--click--footer-bg-source'>
@@ -27,7 +25,8 @@ import '@/assets/main.css'
         </a>
         )
         <br />
-        <a href='https://www.flaticon.com/free-icons/rose' title='rose icons' class='text-white umami--click--footer-attribute'>
+        <a href='https://www.flaticon.com/free-icons/rose' title='rose icons'
+          class='text-white umami--click--footer-attribute'>
           Rose icons created by Freepik - Flaticon
         </a>
       </footer>
@@ -36,17 +35,22 @@ import '@/assets/main.css'
 </template>
 
 <style>
-  .main-title {
-    @apply text-7xl font-bold m-0 text-white mb-[0.71rem];
-  }
+.main-container {
+  @apply flex flex-col justify-center items-center w-screen;
+  height: 85vh;
+}
 
-  .main-tagline {
-    @apply text-pink-300 font-semibold m-0 mt-[0.71rem];
-    font-size: 1rem;
-    line-height: 1.25rem;
-  }
+.main-title {
+  @apply text-7xl font-bold m-0 text-white mb-[0.71rem];
+}
 
-  .round-pfp {
-    @apply rounded-full ring-4 p-1 ring-pink-300 m-0 mb-[1rem];
-  }
+.main-tagline {
+  @apply text-pink-300 font-semibold m-0 mt-[0.71rem];
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.round-pfp {
+  @apply rounded-full ring-4 p-1 ring-pink-300 m-0 mb-[1rem];
+}
 </style>
