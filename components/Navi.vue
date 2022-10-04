@@ -18,8 +18,8 @@ const signIn = async () => {
 
 <template>
   <nav class='navbar'>
-    <button v-if='user' @click='logout' class='button'> Sign Out </button>
-    <button v-else @click='signIn' class='button'> Sign In </button>
+    <UButton v-if='user' @click='logout' class='button' label='Sign Out' target='_blank' icon='mdi:door-open' variant='black' />
+    <UButton v-else @click='signIn' class='button' label='Sign In' target='_blank' icon='mdi:discord' variant='black'/>
   </nav>
 </template>
 
