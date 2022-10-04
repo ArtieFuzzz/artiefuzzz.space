@@ -4,7 +4,7 @@ import '@/assets/main.css'
 
 <template>
   <div class='prose prose-zinc lg:prose-xl'>
-    <Navi />
+    <Navi/>
     <div class='main-container'>
       <img src='/profilepic.png' alt='Profile Picture' class='round-pfp' size='256' draggable='false'>
       <h1 class='main-title'>
